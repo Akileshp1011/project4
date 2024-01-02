@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reg.css">
+</head>
+<body class="all">
+    <nav class="navigation">
+        <img src="./images/university.png" width="100px" class="logo">
+        <ul>
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="http://www.kongunadu.ac.in/kongunadu-placements/kongunadu-campus-to-corporate.html">CAREER</a></li>
+            <li> <a href="http://www.kongunadu.ac.in/kongunadu-contact.html">CONTACT US</a></li>
+            <li> <a href="http://www.kongunadu.ac.in/about-us-menu/kongunadu-profile.html">ABOUT</a></li>
+            <li> <a href="reg.html">REGISTER</a></li>
+        </ul>
+    </nav>
+    <div class="bt">
+        <button> <a href="">Admission</a>
+            <section class="add">
+                <form> <a href="add1.html">COARSES OFFERED</a></form>
+                <form> <a href="add2.html">ELIGIBILITY</a></form>
+                <form> <a href="add3.html">COLLECTION</a></form>
+            </section></button>
+        <button> <a href=""> Department</a>
+            <section class="dep">
+                <form> <a href="#">CIVIL</a></form>
+                <form> <a href="#">AUTOMOBILE</a></form>
+                <form> <a href="#">MECHANICAL</a></form>
+                <form> <a href="#">COMPUTER SCIENCE</a></form>
+                <form> <a href="#">ELECTRICAL & ELECTRONICS</a></form>
+                <form> <a href="#">ELECTRONICS & COMMUNICATION</a></form>
+            </section></button>
+        <button> <a href="">Placement</a>
+            <section class="place">
+                <form> <a href="#">STATICS</a></form>
+                <form> <a href="#">TRAINING ACTIVITIES</a></form>
+                <form> <a href="#">PLACEMENT TEAM</a></form>
+
+            </section></button>
+        <button> <a href="">Facilities</a>
+            <section class="fac">
+                <form> <a href="#">HOSTEL</a></form>
+                <form> <a href="#">MESS</a></form>
+                <form> <a href="#">INDORE STADIUM</a></form>
+                <form> <a href="#">HEALTH CENTER</a></form>
+            </section>
+        </button>
+        <button> <a href="">Acadamy</a>
+            <section class="acadamy">
+                <form> <a href="#">PROFILE</a></form>
+                <form> <a href="#">CLUB & ACTIVITIES</a></form>
+                <form> <a href="#">DEVELOPMENT</a></form>
+            </section></button>
+        <button> <a href="">Sports</a>
+            <section class="sports">
+                <form> <a href="#">PROFILE</a></form>
+                <form> <a href="#">ACHIEVEMENTS</a></form>
+                <form> <a href="#">TOURNAMENTS</a></form>
+                
+            </section>
+        </button>
+    </ul>
+    </div>
+
+<div class="container">
+    
+    <span>
+        <label for="fname">NAME</label><br>
+        <input type="text" required><br>
+    </span>
+    <span>
+        <label for="address">ADDRESS</label><br>
+        <textarea name="adress" id="" cols="80" rows="5"></textarea><br>
+    </span>
+    
+    <span>
+        <label for="gender">GENDER</label><br>
+        <select>
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3">Other</option></select><br>
+    </span>
+    <span>
+        <label for="dob">DATE OF BIRTH</label><br>
+        <input type="date" required><br>
+        </span>
+    <span>
+        <label for="course">COURSE</label><br>
+        <select>  
+        <option value="1">B.E</option>
+        <option value="2">Diploma</option>
+        </select><br>
+   </span>
+    <span>
+        <label for="department">DEPARTMENT</label><br>
+        <select>
+        <option value="1">Civil</option>
+        <option value="2">Automobile</option>
+        <option value="3">Mechanical</option>
+        <option value="4">Computer Science</option>
+        <option value="5">Electrical & Electronics</option>
+        <option value="6">Electronics & Communication</option>
+        </select><br>
+    </span>
+    <span>
+        <label for="email">EMAIL ADDRESS</label><br>
+        <input type="text" required><br>
+    </span>
+    <span>
+        <label for="passwoerd">PASSWORD</label><br>
+        <input type="password" required><br>
+    </span>
+    <span>
+        <label for="number">PHONE</label><br>
+            <input type="text"><br>
+    </span>
+    
+
+    
+    
+    <button onclick="reg();">REGISTER</button><br>
+    <script>
+        function reg(){
+            var a=confirm("you have to submit?");
+            if(a==true){
+                document.write("successfully submited");
+            }
+            else{
+                alert("please check your registration form")
+            }
+        }
+    </script> 
+    <a href="#">Forgot password? </a> 
+    
+
+
+
+    
+
+
+    
+</div>
+    
+</body>
+</html>

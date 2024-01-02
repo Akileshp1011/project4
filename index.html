@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+
+
+    <div class="block">
+    <nav class="navigation">
+        <img src="./images/university.png" width="100px" class="logo">
+        <ul>
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="http://www.kongunadu.ac.in/kongunadu-placements/kongunadu-campus-to-corporate.html">CAREER</a></li>
+            <li> <a href="http://www.kongunadu.ac.in/kongunadu-contact.html">CONTACT US</a></li>
+            <li> <a href="http://www.kongunadu.ac.in/about-us-menu/kongunadu-profile.html">ABOUT</a></li>
+            <li> <a href="reg.html">REGISTER</a></li>
+        </ul>
+    </nav>
+        <div class="section" style="width:500px">
+            <img src="./images/1.jpg" class="slides" style="width:180%" height="530px">
+            <img src="./images/2.jpg" class="slides" style="width:180%" height="530px">
+            <img src="./images/3.jpg" class="slides" style="width:180%" height="530px">
+        
+            <img src="./images/5.jpg" class="slides" style="width:180%" height="530px">
+            <script>
+                var index=0;
+                slide();
+                function slide(){
+                    var i;
+                    var x =document.getElementsByClassName("slides");
+                    for(i=0; i < x.length; i++){
+                        x[i].style.display="none";
+                    }
+                    index++;
+                    if(index > x.length) {index=1}
+                    x[index-1].style.display="block";
+                    setTimeout(slide,2500);
+                }
+            </script>
+        </div>
+    
+    
+    <div class="bt">
+        <button> <a href="">Admission</a>
+            <section class="add">
+                <form> <a href="add1.html">COARSES OFFERED</a></form>
+                <form> <a href="add2.html">ELIGIBILITY</a></form>
+                <form> <a href="add3.html">COE FACULTY</a></form>
+            </section></button>
+        <button> <a href=""> Department</a>
+            <section class="dep">
+                <form> <a href="#">CIVIL</a></form>
+                <form> <a href="#">AUTOMOBILE</a></form>
+                <form> <a href="#">MECHANICAL</a></form>
+                <form> <a href="#">COMPUTER SCIENCE</a></form>
+                <form> <a href="#">ELECTRICAL & ELECTRONICS</a></form>
+                <form> <a href="#">ELECTRONICS & COMMUNICATION</a></form>
+            </section></button>
+        <button> <a href="">Placement</a>
+            <section class="place">
+                <form> <a href="#">STATICS</a></form>
+                <form> <a href="#">TRAINING ACTIVITIES</a></form>
+                <form> <a href="#">PLACEMENT TEAM</a></form>
+
+            </section></button>
+        <button> <a href="">Facilities</a>
+            <section class="fac">
+                <form> <a href="#">HOSTEL</a></form>
+                <form> <a href="#">MESS</a></form>
+                <form> <a href="#">INDORE STADIUM</a></form>
+                <form> <a href="#">HEALTH CENTER</a></form>
+            </section>
+        </button>
+        <button> <a href="">Acadamy</a>
+            <section class="acadamy">
+                <form> <a href="#">PROFILE</a></form>
+                <form> <a href="#">CLUB & ACTIVITIES</a></form>
+                <form> <a href="#">DEVELOPMENT</a></form>
+            </section></button>
+        <button> <a href="">Sports</a>
+            <section class="sports">
+                <form> <a href="#">PROFILE</a></form>
+                <form> <a href="#">ACHIEVEMENTS</a></form>
+                <form> <a href="#">TOURNAMENTS</a></form>
+                
+            </section>
+        </button>
+   
+    </div>
+    <div class="small">
+        <div class="small1">
+            <img src="./images/student.png" width="125px" class="student">
+            <h2>Certified Teachers</h2>
+            <p>Even the all powerfull poiting has no control about the blind texts it is an almost unorthographic</p>
+           
+        </div>
+        <div class="small2">
+            <img src="./images/teacher.png" width="160px" class="student">
+            <h2>Special Education</h2>
+            <p>Even the all powerfull poiting has no control about the blind texts it is an almost unorthographic</p>
+           
+        </div>
+        <div class="small3">
+            <img src="./images/books.png" width="160px" class="student">
+            <h2>Books & Library</h2>
+            <p>Even the all powerfull poiting has no control about the blind texts it is an almost unorthographic </p>
+           
+        </div>
+        <div class="small4">
+            <img src="./images/spo.png" width="125px" class="student">
+            <h2>Sport Clubs</h2>
+            <p>Even the all powerfull poiting has no control about the blind texts it is an almost unorthographic</p>
+           
+        </div>
+    </div>
+    
+    <div class="followus">
+        <a href="https://www.facebook.com/KongunaduCollegeofEngineeringAndTechnology/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/watch?v=dznMkp621CU"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.instagram.com/explore/locations/141142119881986/kongunadu-college-of-engineering-and-technology/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/kongunaduof"><i class="fa fa-twitter"></i></a>
+    </div>
+    <div class="large">
+        <div class="head"><p>OUR PLACEMENT PARTNERS</p></div>
+        <img src="./images/01.png" width="130px" class="log">
+        <img src="./images/02.png" width="130px" class="log">
+        <img src="./images/03.png" width="130px" class="log">
+        <img src="./images/04.png" width="130px" class="log">
+        <img src="./images/05.png" width="130px" class="log">
+        <img src="./images/06.png" width="130px" class="log">
+        <img src="./images/07.png" width="130px" class="log">
+        <img src="./images/08.png" width="130px" class="log">
+        <img src="./images/09.png" width="130px" class="log">
+        <img src="./images/10.png" width="130px" class="log">
+    </div>
+
+
+</div>
+
+    
+
+    
+</body>
+</html>
